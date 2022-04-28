@@ -158,11 +158,11 @@ const sad = (obj) => {
 anger['params'] = { color: 1, led: 2, time: 1 };
 joy['params'] = { color: 1, led: 1, time: 1 };
 sad['params'] = { color: 1, led: 1, time: 1 };
-surprise['params'] = { color: 2, led: 1, time: 1 };
+//surprise['params'] = { color: 2, led: 1, time: 1 };
 
 module.exports = {
     anger,
     joy,
-    sad,
-    surprise
+    sad//,
+    //surprise
 }

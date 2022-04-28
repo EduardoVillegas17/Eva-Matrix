@@ -30,7 +30,7 @@ const surprise = (obj) => {
     // }, obj.time);
 }
 
-surprise['params'] = { color: 2, led: 1, time: 1 };
+//surprise['params'] = { color: 2, led: 1, time: 1 };
 
 module.exports = {
     surprise
